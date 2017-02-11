@@ -12,7 +12,31 @@ body{
   line-height: 1.4px;
   font: 16px Helvetica;
 }
-
+h1{font-family: 'Josefin Slab', serif;
+  background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#526400), to(#FF4E28))}
+h2{font-family: 'Chathura', sans-serif;}
+h3{font-family: 'Concert One', cursive;
+background-color: rgba(140, 140, 44, 0.9);
+background: rgba(140, 140, 44, 0.9);
+color: rgba(140, 140, 44, 0.9);}
+p{font-family: 'Revalia', cursive;
+-moz-box-shadow: 13px 13px 16px #000000;
+-webkit-box-shadow: 13px 13px 16px #000000;
+box-shadow: 13px 13px 16px #000000;}
+a{font-family: 'Lemonada', cursive;
+border:dashed 10px #00f7ff;
+-moz-border-radius-topleft: 60px;
+-moz-border-radius-topright:0px;
+-moz-border-radius-bottomleft:5px;
+-moz-border-radius-bottomright:5px;
+-webkit-border-top-left-radius:60px;
+-webkit-border-top-right-radius:0px;
+-webkit-border-bottom-left-radius:5px;
+-webkit-border-bottom-right-radius:5px;
+border-top-left-radius:60px;
+border-top-right-radius:0px;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;}
 hr{
   display: block;
   height: 1px;
