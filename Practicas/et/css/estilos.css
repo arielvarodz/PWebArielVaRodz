@@ -1,0 +1,28 @@
+#azul11, #azul12, #azul13 {background-color: blue;}
+#yellow1{background-color: yellow;}
+#gray11,#gris{ background-color: gray;}
+#pink1{background-color: pink;}
+#azul14 {background-color: lightblue;}
+
+#azul11, #azul12, #azul13{display:inline-grid;}
+@media only screen and (max-width: 480px) {
+  #gray1,#gris{visibility: hidden;}
+  #pink1 {width: 60%;}
+  #yellow1{width: 90%;}
+  #gray12{visibility: hidden;}
+  #azul11, #azul12, #azul13, #azul14 {display: grid;}
+}
+
+@media only screen and (max-width: 720px) {
+  #gris{visibility: visible}
+  #pink1 {width: 60%}
+  #yellow1{width: 90%}
+  #gray11{visibility: hidden;}
+  #azul11 ,#azul12{display:table-cell;}
+  #azul11, #azul12, #azul13, #azul14 {display: grid;}
+}
+
+@media only screen and (max-width: 1140px) {
+  #gris{visibility: hidden;}
+  #azul11, #azul12, #azul13, #azul14 {display: grid;}
+}

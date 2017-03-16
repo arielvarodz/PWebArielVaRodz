@@ -2,3 +2,9 @@
   h1{
   font-family: 'Barrio', cursive;
   }
+.frijol{
+  width: 80px;
+  right: 100px;
+  position: relative;
+  visibility: hidden;
+}
