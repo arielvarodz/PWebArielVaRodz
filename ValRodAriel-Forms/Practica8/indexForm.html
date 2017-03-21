@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Laboratirio Quimico</title>
+      <link rel="icon" href="./img/icon.png" type="image/x-icon" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div id="jb" class="jumbotron">
+
+      <h1>Hola Bienvenidos a Glass-Senberg</h1>
+      <a href="#" class="thumbnail">
+       <img src="./img/heisenberg.png" >
+      </a>
+      </div>
+
+      <label for="sesion">Inicia Sesión con tu cuenta</label>
+      <form class="form-inline"id="sesion">
+        <div class="form-group">
+          <label class="sr-only" for="exampleInputEmail3">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="exampleInputPassword3">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> Recuerdame
+          </label>
+        </div>
+        <button type="submit" class="btn btn-default">Sign in</button>
+      </form>
+
+
+      <br>
+
+    <form class="form-horizontal">
+      <label for="coti" class="col-sm-2 control-label">Cotiza Envio</label>
+      <button type="submit" class="btn btn-default">Cotiza!</button>
+      <input class="form-control" type="text" placeholder="Costo" readonly>
+    <div class="row" id="coti">
+    <div class="col-xs-2">
+      <label for="txtbox1" class="col-sm-2 control-label">CP</label>
+      <input type="text" id="txtbox1" class="form-control" placeholder="5 digitos">
+
+    </div>
+    <div class="col-xs-3">
+      <label for="txtbox2" class="col-sm-2 control-label">Numero</label>
+      <input type="text" id="txtbox2" class="form-control" placeholder="Celular">
+    </div>
+    <div class="col-xs-4">
+      <label for="txtbox2" class="col-sm-2 control-label">Direccion</label>
+      <input type="text" id="txtbox3" class="form-control" placeholder="Especifica">
+    </div>
+    </div>
+
+    </form>
+
+    <form class="form-horizontal">
+      <label for="txtcaja" class="col-sm-2 control-label">Comentarios</label>
+      <select class="form-control" id="select">
+        <option>informativo</option>
+        <option>queja</option>
+        <option>sugerencia</option>
+       </select>
+
+      <textarea id="txtcaja"class="form-control" rows="3"></textarea>
+      <div class="form-group">
+    <label for="exampleInputFile" class="col-sm-2 control-label">Añada un archivo si asi lo requiere</label>
+    <input type="file" id="exampleInputFile">
+  </div>
+  <label class="radio-inline" class="col-sm-2">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Acepta Terminos y condiciones
+</label>
+    </form>
+  </body>
+</html>
