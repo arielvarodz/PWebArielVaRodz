@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dos Columnas</title>
+    <link rel="icon" href="itc.png" type="image/x-icon" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src ="js/validator.min.js"></script>
+  </head>
+
+  <body>
+      <div class="container">
+        <div class="col-sm-4">
+
+          <form data-toggle="validator" role="form">
+            <fieldset enabled>
+              <legend>Alta en el Servicio</legend>
+              <div class="form-group">
+                <label for="txtNombre">Nombre</label>
+                <input type="text" id="txtNombre" class="form-control" placeholder="Escriba Aqui"tabindex="1" required>
+                <label for="txtApellidos">Apellidos</label>
+                <input type="text" id="txtApellidos" class="form-control" placeholder="Escriba Aqui"tabindex="2" required>
+                <label for="txtDNI">DNI</label>
+                <input type="text" id="txtDNI" class="form-control" placeholder="Escriba Aqui"tabindex="3" required>
+                <label for="txtContraseña">Contraseña</label>
+                <input type="text" id="txtContraseña" class="form-control" placeholder="Escriba Aqui"tabindex="4" required>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+
+        <div class="col-sm-4">
+          <form data-toggle="validator" role="form">
+            <fieldset enabled>
+              <legend>Datos del Contacto</legend>
+              <div class="form-group">
+                <label for="txtTelefono">Telefono</label>
+                <input type="text" id="txtTelefono" class="form-control" placeholder="Escriba Aqui"tabindex="5" required>
+                <label for="txtEmail">Email</label>
+                <input type="text" id="txtEmail" class="form-control" placeholder="Escriba Aqui"tabindex="6" required>
+                <label for="txtDireccion">Direccion</label>
+                <input type="text" id="txtDireccion" class="form-control" placeholder="Escriba Aqui"tabindex="7" required>
+                <label for="txtCP">Codigo Postal</label>
+                <input type="text" id="txtCP" class="form-control" placeholder="Escriba Aqui"tabindex="8" required>
+              </div>
+            </fieldset>
+          </form>
+          <button type="submit" class="btn"tabindex="9">Dame de alta</button>
+        </div>
+      </div>
+  </body>
+</html>
