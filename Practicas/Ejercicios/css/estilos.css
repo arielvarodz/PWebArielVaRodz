@@ -1,0 +1,14 @@
+
+  h1{
+  font-family: 'Barrio', cursive;
+  }
+
+  .heading-solicitud{
+  	height: 165px;
+  	font-size: 40px;
+  	padding-top: 48px;
+  }
+
+  #fecha{
+  	padding-top: 8px;
+  }
